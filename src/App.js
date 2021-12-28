@@ -1,5 +1,5 @@
 import MainCard from "./Components/Card.js";
-import Navigator from "./Components/Navbar.js";
+import Navigator from "./Components/SideNav.js";
 import { Container, Row, Col } from 'react-bootstrap';
 import './Styles/home.css';
 

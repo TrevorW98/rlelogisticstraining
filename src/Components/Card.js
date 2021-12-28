@@ -1,9 +1,8 @@
-import { Card, Button, Col } from 'react-bootstrap';
+import { Card, Button } from 'react-bootstrap';
 
 function MainCard() {
     return (
-
-        <Card style={{ width: '18rem' }}>
+        <Card style={{ width: '22rem' }}>
             <Card.Body>
                 <Card.Title>Card Title</Card.Title>
                 <Card.Text>
@@ -13,7 +12,6 @@ function MainCard() {
                 <Button variant="primary">Go somewhere</Button>
             </Card.Body>
         </Card>
-
     )
 };
 
