@@ -5,12 +5,14 @@ import './Styles/home.css';
 
 function App() {
   return (
-    <Container fluid className="noPadding">
+    <Container fluid style={{ padding: 0 }}>
       <Row>
         <Col>
           <Navigator></Navigator>
-          <MainCard />
         </Col>
+      </Row>
+      <Row style={{ justifyContent: 'center' }}>
+        <MainCard></MainCard>
       </Row>
     </Container>
   );

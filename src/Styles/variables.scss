@@ -1,0 +1,10 @@
+$font-main: Roboto;
+$bgColor: #1C1C1C;
+$rleBlue: #1d428f;
+$rleWhite: #FFFFFF;
+$rleAccent: #676767;
+
+@mixin justifyCenter {
+    display: flex;
+    justify-content: center;
+}
