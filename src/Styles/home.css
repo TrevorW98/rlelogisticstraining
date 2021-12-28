@@ -8,20 +8,20 @@ body {
   font: Roboto;
 }
 
-.noPadding {
-  padding: 0;
-}
-
-.navColor {
-  background-color: #FFFFFF;
-}
-
-col {
+#center {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.noPadding {
+  padding: 0;
+}
+
+.navColor {
+  background-color: #FFFFFF;
 }
 /*# sourceMappingURL=home.css.map */

@@ -11,8 +11,10 @@ function App() {
           <Navigator></Navigator>
         </Col>
       </Row>
-      <Row style={{ justifyContent: 'center' }}>
-        <MainCard></MainCard>
+      <Row>
+       <Col id="center">
+         <MainCard></MainCard>
+       </Col>
       </Row>
     </Container>
   );
