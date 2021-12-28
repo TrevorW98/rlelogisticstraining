@@ -1,1 +1,12 @@
-$font-main: Roboto
+$font-main: Roboto;
+$color1: rgb(79, 79, 83);
+
+html{
+    height: 100%;
+}
+
+body{
+    background-color: $color1;
+    height: 100%;
+    font: $font-main;
+}
